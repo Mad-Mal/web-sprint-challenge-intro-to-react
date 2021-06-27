@@ -22,3 +22,12 @@ function Character(props) {
 }
 
 export default Character;
+
+
+//styling
+
+const divWrap = styled.div`
+    width: 25%;
+    height: 100%;
+    background: black;
+    `;
