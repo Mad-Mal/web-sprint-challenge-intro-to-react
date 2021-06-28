@@ -9,9 +9,11 @@
 
 #divCon {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: flex-start;
+  margin: 7.5%;
   background-color: whitesmoke;
   opacity: .35;
+  border-radius: 50px;
 }

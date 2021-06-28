@@ -3,6 +3,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Character from './components/Character'
+import Header from './components/Header'
 
 const App = () => {
   const [characterList, setCharacterList] = useState([]);
@@ -31,7 +32,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <Header className="Header">Characters</Header>
       <div id='divCon'>
       <Character props={characterList}/>
       </div>
